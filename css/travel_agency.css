@@ -1,0 +1,191 @@
+@charset"UTF-8";
+*{margin: 0px;box-sizing: border-box;}
+body{
+	background-color: #eee;
+	font-family: "Raleway","Helvettica","Arial",sans-serif;
+}
+nav{
+	width: 100%;
+	overflow: hidden;
+	padding: 10px;
+	background-color: #fff;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+img{width: 100%;}
+nav h2{color: #ff3030;float: left;}
+nav i{padding: 0px 10px;}
+nav h3{
+	float: right;
+	cursor: pointer;
+	padding: 10px;
+}
+.rel{position: relative;}
+.hotel{
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	overflow: hidden;
+	width: 65%;
+	border:none;
+	transform: translate(-50%,-50%);
+}
+.hotel > div:first-child{
+	color: #fff;
+	overflow: hidden;
+	width: 100%;
+	padding: 0px;
+	background-color: #000;
+}
+.tablink{
+	border:none;
+	outline: none;
+	padding: 15px;
+	font-size: 15px;
+	float: left;
+	color: inherit;
+	background-color: inherit;
+}
+.tablink:hover{
+	color: #000;
+	cursor: pointer;
+	background-color: #eee;
+}
+.tabcontent{
+	padding: 20px;
+	display: none;
+	background-color: #fff;
+}
+.defaultOpen{display: block;}
+p{margin: 15px 0px;font-size: 15px;}
+.under, input{
+	padding: 10px;
+	width: 100%;
+	border:2px solid #ddd;
+}
+form div{
+	width: 49%;
+	float: left;
+}
+.put{margin-left: 2%;}
+h2{
+	margin: 10px 0px;
+	font-weight: lighter;
+}
+label{
+	font-size: 15px;
+	display: inline-block;
+	margin: 5px 0px;
+}
+.under, input[type="submit"]{
+	width: auto;
+	border:none;
+	color: #fff;
+	display: inline-block;
+	margin: 20px 0px;
+	font-size: 16px;
+	background-color: #555;	
+}
+.under:hover, input[type="submit"]:hover{
+	color: #000;
+	cursor: pointer;
+	background-color: #ddd;
+}
+.active{background-color: #ff3030;}
+.under{padding: 10px 20px;}
+#Rental span{
+	padding: 5px;
+	color: #fff;
+	display: inline-block;
+	margin-right: 5px;
+	background-color: #ff3030;
+}
+h1{font-weight: lighter;}
+div{overflow: hidden;}
+section{
+	width: 80%;
+	margin: 30px auto;
+}
+section h2{margin-top: 30px;}
+img{width: 100%;}
+.stay{display: flex;}
+.stay > div{width: 48%;float: left;}
+.stay div{position: relative;}
+.stay h3{
+	color: #fff;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	font-weight: lighter;
+}
+.six{margin: 0px 2%;}
+.last{margin-top: 2%;}
+.ocean{margin: 20px 0px;}
+.ocean > div{
+	padding: 10px;
+	background-color: #fff;
+}
+.find{font-size: 15px;color: #777;}
+.mountain{margin-left: 2%;}
+.ocean a{
+	padding: 10px 20px;
+	margin: 7px 0px;
+	font-size: 15px;
+	display: inline-block;
+}
+.ocean a:hover{background-color: #eee;}
+.get{
+	margin: 30px 0px;
+	color: #fff;
+	padding: 10px;
+	background-color: #000;
+	filter: contrast(50%);
+	-webkit-filter:contrast(50%);
+}
+.contact h1, .get h1{
+	margin: 20px 0px;font-size: 200%;}
+.get:hover{
+	filter: contrast(100%);
+	-webkit-filter:contrast(100%);
+}
+.get input[type="submit"]{
+	background-color: #ff3030;
+}
+.get input[type="submit"]:hover{
+	color: #000;
+	background-color: #eee;
+}
+.contact p{margin: 10px 0px;}
+p.will{margin: 30px 0px;}
+.contact .fa{margin-right: 5px;}
+.contact a:hover{text-decoration: overline;}
+.contact input{
+	padding: 20px 10px;
+	margin: 10px 0px;
+	background-color: #fff;
+}
+.contact input[type="submit"]{
+	padding: 15px 20px;
+	font-size: 15px;
+	background-color: #000;
+	color: #fff;
+}
+.contact input[type="submit"]:hover{
+	color: #000;
+	background-color: #ccc;
+}
+footer{
+	padding: 20px;
+	text-align: center;
+}
+footer p{font-size: 20px;}
+footer .fa{
+	font-size: 25px;
+	display: inline-block;
+	margin: 10px;
+}
+footer p:last-child{font-size: 17px;}
+footer .fa:hover, footer a:hover{cursor: pointer;}
+footer a:hover{text-decoration: overline;}

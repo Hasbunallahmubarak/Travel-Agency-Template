@@ -1,0 +1,16 @@
+@media screen and (max-width: 1000px){
+	.hotel{width: 80%;}
+	section{min-width: 100%;width: 100%;padding: 20px;}
+}
+@media screen and (max-width: 650px){
+	.rel{display: none;}
+	nav h3, nav h2{display: block;text-align: center;float: none;}
+}
+@media screen and (max-width: 600px){
+	.stay{display: block;}
+	.stay > div{width: 100%;float: none;}
+	.six{margin: 0px;}
+	.stay img{display: inline-block;margin-top: 10px;}
+	.last{margin-top: 0px;}
+	.mountain, .six{margin-left: 0px;}
+}
